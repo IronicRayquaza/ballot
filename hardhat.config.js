@@ -24,6 +24,10 @@ module.exports = {
   networks:{
     hardhat:{
       chainID: 31337
+    },
+    volta:{
+      url: 'https://volta-rpc.energyweb.org',
+      accounts: ["ab28378fa64d5e10b25d8e6d0f2213cfe52366eb4852193a8be00bb845fe58d7"]
     }
   }
 };
